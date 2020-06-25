@@ -9,9 +9,6 @@ $neg_file = "./neg.txt";
 $pos_arr = array();
 $neg_arr = array();
 
-// echo $file;
-// echo $operation;
-
 // file existance check
 if (!file_exists($file)){
 	exit("\nFile \"$argv[1]\" not Found!\n");
@@ -20,12 +17,9 @@ else {
 	// file open check
 	$file = fopen($file, "r") or exit("Unable to open file!");
 	while (!feof($file)) { 
-		// echo $i . "\n";
 
 		// get a file line by line
 		$current_line = fgets ($file);
-
-		// echo $current_line . "\n"; 
 		
 		// split string into words
 		$str_arr = explode (" ", $current_line);
