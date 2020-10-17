@@ -1,5 +1,4 @@
-# Task for Junior
-Console prog to read a file, make a math operations, store a result in new files
+# Console prog to read a file, make a math operations, store a result in new files
 
 Kонсольная программа, которая получает два аргумента «имя файла», «тип операции».
 Например: "php test.php file.txt +", "php test.php file.txt /"
